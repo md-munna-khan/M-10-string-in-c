@@ -91,4 +91,37 @@ int main()
  ![alt text](image-9.png)
 
  ## 10-9 Length of a string
- 
+
+ ```c
+ #include<stdio.h>
+int main()
+{
+    char s [100];
+    scanf("%s",s);
+    int count=0;
+    for(int i=0;s[i] != '\0'; i++)
+    {
+        count ++;
+    }
+    printf("%d",count);
+    return 0;
+}
+```
+
+![alt text](image-10.png)
+
+## 10-11 Length of a string using strlen
+
+```c
+#include<stdio.h>
+int main()
+{
+    char s [100];
+    scanf("%s",s);
+ int size = strlen(s);
+ printf("%d",size);
+    return 0;
+}
+```
+
+## 10-12 Lets use getline
